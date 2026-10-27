@@ -1,0 +1,12 @@
+[project]
+name = "agent-host-keepalive"
+version = "2.0.0"
+description = "Keep a local VS Code Agent Host connected without a session."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "websockets>=15.0,<16.0",
+]
+
+[tool.uv]
+package = false
